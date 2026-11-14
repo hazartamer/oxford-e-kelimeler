@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E Kelimeleri — Oxford 3000</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#home"><span class="logo">E</span><span>Oxford 3000 <small>E kelimeleri</small></span></a>
+  <div class="hud">
+    <span title="Günlük seri">🔥 <b id="streak">0</b></span>
+    <span title="Puan">⭐ <b id="xp">0</b></span>
+    <select id="level" aria-label="Seviye filtresi">
+      <option value="">Tüm seviyeler</option>
+      <option>A1</option><option>A2</option><option>B1</option><option>B2</option>
+    </select>
+  </div>
+</header>
+<nav id="nav">
+  <a href="#home">Ana sayfa</a>
+  <a href="#cards">Kartlar</a>
+  <a href="#quiz">Quiz</a>
+  <a href="#match">Eşleştirme</a>
+  <a href="#type">Yazma</a>
+  <a href="#list">Liste</a>
+</nav>
+<main id="view"></main>
+<script src="words.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
